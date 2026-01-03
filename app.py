@@ -41,9 +41,9 @@ except Exception as e:
 # ======================================================
 alert_to_class = {
     "green": 0,
-    "yellow": 1,
-    "orange": 2,
-    "red": 3
+    "yellow": 3,
+    "orange": 1,
+    "red": 2
 }
 class_to_alert = {v: k for k, v in alert_to_class.items()}
 
